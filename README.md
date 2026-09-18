@@ -7,7 +7,7 @@ Powered by the **Open-Meteo Geocoding API** and **Open-Meteo Forecast API** with
 ---
 
 ## Live Deployment
-- **Cloudflare Pages Live URL**: `https://<your-project>.pages.dev`
+- **Cloudflare Pages Live URL**: [https://weather-intelligence-d57.pages.dev/](https://weather-intelligence-d57.pages.dev/)
 - **Google AI Studio Development URL**: `https://ais-dev-bzvasrjw5regxrjw3may24-868619009887.us-east1.run.app`
 
 ---
