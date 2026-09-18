@@ -30,7 +30,7 @@ export const CloudflareDeploymentModal: React.FC<CloudflareDeploymentModalProps>
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
 
   // Cloudflare Pages Verification URL state
-  const [cfUrl, setCfUrl] = useState('https://weather-intelligence-app.pages.dev');
+  const [cfUrl, setCfUrl] = useState('https://weather-intelligence-d57.pages.dev');
   const [verifying, setVerifying] = useState(false);
   const [verificationResult, setVerificationResult] = useState<{
     status: 'idle' | 'success' | 'checking';
