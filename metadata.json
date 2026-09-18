@@ -1,0 +1,6 @@
+{
+  "name": "Weather Intelligence App",
+  "description": "Real-time weather intelligence powered by Open-Meteo with city search, current conditions, 7-day forecast, and activity planning recommendations.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
