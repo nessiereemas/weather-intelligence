@@ -1,13 +1,22 @@
 # Cloudflare Pages Deployment & GitHub Integration Guide
 
-## 1. Project Overview
+## 1. Verified Live URLs & Repository Links
+- **Live Cloudflare Pages URL**: [https://weather-intelligence-d57.pages.dev/](https://weather-intelligence-d57.pages.dev/)
+- **Connected GitHub Repository**: [https://github.com/nessiereemas/weather-intelligence](https://github.com/nessiereemas/weather-intelligence)
+- **Google AI Studio Applet**: `https://ais-dev-bzvasrjw5regxrjw3may24-868619009887.us-east1.run.app`
+- **Cloudflare Pages Project**: `weather-intelligence`
+- **Production Branch**: `main`
+
+---
+
+## 2. Project Overview
 The **Weather Intelligence App** is built as a high-performance, zero-secret Vite + React 19 Single-Page Application (SPA). It directly queries Open-Meteo's CORS-enabled global APIs for geocoding and real-time atmospheric forecasting, making it 100% turnkey and statically hostable on Cloudflare Pages edge infrastructure.
 
 ---
 
-## 2. Step 1: Connect to GitHub
+## 3. Step 1: Connect to GitHub
 
-You can export or push this repository directly to GitHub:
+The repository is linked directly to GitHub at `https://github.com/nessiereemas/weather-intelligence`:
 
 ```bash
 # 1. Initialize Git (if not already initialized)
@@ -18,8 +27,8 @@ git branch -m main
 git add .
 git commit -m "feat: Weather Intelligence App ready for Cloudflare Pages"
 
-# 3. Add your remote GitHub repository
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPOSITORY_NAME>.git
+# 3. Add remote GitHub repository
+git remote add origin https://github.com/nessiereemas/weather-intelligence.git
 
 # 4. Push to GitHub
 git push -u origin main

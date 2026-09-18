@@ -331,11 +331,25 @@ git add .
 git commit -m "feat: Weather Intelligence App production artifact"
 
 # 2. Add your GitHub repository remote
-git remote add origin https://github.com/<USERNAME>/weather-intelligence-app.git
+git remote add origin https://github.com/nessiereemas/weather-intelligence.git
 
 # 3. Push to main branch
 git push -u origin main`}</code>
                 </pre>
+              </div>
+
+              <div className="flex items-center justify-between p-3 rounded-lg bg-slate-800/80 border border-slate-700 text-xs">
+                <span className="text-slate-300">Connected Repository:</span>
+                <a
+                  href="https://github.com/nessiereemas/weather-intelligence"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-sky-400 hover:text-sky-300 font-mono font-medium"
+                >
+                  <Github className="w-3.5 h-3.5" />
+                  <span>nessiereemas/weather-intelligence</span>
+                  <ExternalLink className="w-3 h-3" />
+                </a>
               </div>
 
               <div className="text-xs text-slate-400 leading-relaxed">

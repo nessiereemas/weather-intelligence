@@ -1,5 +1,5 @@
 import React from 'react';
-import { CloudRain, Globe, Sparkles, Sliders, ExternalLink } from 'lucide-react';
+import { CloudRain, Globe, Sparkles, Github, ExternalLink } from 'lucide-react';
 import { TemperatureUnit } from '../types';
 
 interface HeaderProps {
@@ -75,6 +75,33 @@ export const Header: React.FC<HeaderProps> = ({
             </button>
           </div>
 
+          {/* GitHub Repo Link */}
+          <a
+            id="header-github-link"
+            href="https://github.com/nessiereemas/weather-intelligence"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="View source on GitHub"
+            className="hidden sm:flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium text-slate-300 hover:text-white bg-slate-800/80 hover:bg-slate-700 border border-slate-700 transition"
+          >
+            <Github className="w-3.5 h-3.5 text-slate-200" />
+            <span className="hidden lg:inline">GitHub</span>
+          </a>
+
+          {/* Cloudflare Pages Live App Link */}
+          <a
+            id="header-cloudflare-live-link"
+            href="https://weather-intelligence-d57.pages.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Open Live Cloudflare Pages URL"
+            className="hidden sm:flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium text-emerald-300 hover:text-emerald-200 bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 transition"
+          >
+            <Globe className="w-3.5 h-3.5 text-emerald-400" />
+            <span className="hidden lg:inline">Live pages.dev</span>
+            <ExternalLink className="w-3 h-3" />
+          </a>
+
           {/* Cloudflare Pages & GitHub Artifact Modal Button */}
           <button
             id="open-deploy-hub-button"
@@ -83,7 +110,7 @@ export const Header: React.FC<HeaderProps> = ({
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-gradient-to-r from-amber-500/15 via-orange-500/15 to-amber-600/15 border border-amber-500/30 text-amber-300 hover:bg-amber-500/25 transition-all shadow-sm group"
           >
             <Globe className="w-3.5 h-3.5 text-amber-400 group-hover:rotate-12 transition-transform" />
-            <span className="hidden md:inline">Cloudflare Deploy & GitHub</span>
+            <span className="hidden md:inline">Deploy Hub</span>
             <span className="md:hidden">Deploy</span>
             {isDeployReady && (
               <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse ml-0.5" />

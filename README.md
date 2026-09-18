@@ -6,9 +6,14 @@ Powered by the **Open-Meteo Geocoding API** and **Open-Meteo Forecast API** with
 
 ---
 
-## Live Deployment
+## Live Deployment & Repository Evidence
 - **Cloudflare Pages Live URL**: [https://weather-intelligence-d57.pages.dev/](https://weather-intelligence-d57.pages.dev/)
+- **Connected GitHub Repository**: [https://github.com/nessiereemas/weather-intelligence](https://github.com/nessiereemas/weather-intelligence)
 - **Google AI Studio Development URL**: `https://ais-dev-bzvasrjw5regxrjw3may24-868619009887.us-east1.run.app`
+- **Cloudflare Pages Project Name**: `weather-intelligence`
+- **Build Command**: `npm run build`
+- **Build Output Directory**: `dist`
+- **Framework Preset**: `Vite`
 
 ---
 
